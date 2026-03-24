@@ -21,7 +21,7 @@
 
     - name: 3. Pull source code from GitHub repository
       git:
-        repo: 'https://github.com/TEN_TAI_KHOAN/wikipanime.git'
+        repo: 'https://github.com/NuhHuhYuuka/wikipanime_test.git'
         dest: /opt/wikipanime
         version: main
         force: yes
