@@ -29,7 +29,7 @@ services:
       TZ: Asia/Ho_Chi_Minh
     volumes:
       - ./mysql_data:/var/lib/mysql
-      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./app/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - app_network
 
